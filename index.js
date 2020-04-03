@@ -19,9 +19,9 @@ while (num < 15);
 function johnLennonFacts (array){
   let newArray = []
   let i = 0 
-  while(i < array.length-1){
+  while(i < array.length){
      i+= 1
-     newArray.push(array[i] + ' !!!')
+     newArray.push(array[i] + ""+ '!!!')
   }
  return newArray
 }
