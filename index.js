@@ -21,7 +21,7 @@ function johnLennonFacts (array){
   let i = 0 
   while(i < array.length-1){
      i+= 1
-     newArray.push(array[i] + ' \"!!!\"')
+     newArray.push(array[i] + '!!!"')
   }
  return newArray
 }
